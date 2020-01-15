@@ -14,7 +14,7 @@ def run_game():
             if event.type == pygame.QUIT:
                 sys.exit()
 
-        time.sleep(0.1)
+        time.sleep(0.3)
         print(time.time())
 
         screen.fill(ai_settings.bg_color)
